@@ -12,3 +12,10 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+When opened -> the CURRENT day is displayed at top
+Time blocks from 9am - 5pm
+Time blocks colored coded for past, present or future
+Within time block I can enter an event
+When Save button is clicked that entered event is saved to local storage
+On refresh saved events persist
